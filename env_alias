@@ -1,0 +1,4 @@
+alias npm="docker exec -i ts_compiler npm"
+alias node="docker exec -i ts_compiler node"
+
+alias ts_build="docker build -t ts-dev . && docker run --rm -i -v `pwd`/app:/app ts-dev npm i"

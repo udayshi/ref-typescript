@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ts-dev:
+    image: ts-dev
+    container_name: ts_compiler
+    volumes:
+      - ./app:/app
+    tty: true
