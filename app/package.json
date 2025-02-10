@@ -1,0 +1,25 @@
+{
+  "name": "learn_typescript",
+  "version": "1.0.0",
+  "description": "TypeScript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "build":"tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udayshi/ref-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udayshi/ref-typescript/issues"
+  },
+  "homepage": "https://github.com/udayshi/ref-typescript#readme"
+}
